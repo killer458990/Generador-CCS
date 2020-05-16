@@ -10,17 +10,29 @@
 
 
 
+pkg update -y
+
+pkg upgrade -y
+
+pkg install python -y
+
+pkg install python2 -y
+
+apt install pv
+
+pkg install bash -y
+
+pkg install git -y
+
+cd Generador-CCS
+
+chmod +x Generador-CCS.sh
+
+bash Generador-CCS.sh
 
 
 
-
-
-
-
-
-
-
-
+python2 .ccs-validas.py -b 453456xxxxxxxxxx -u 50 -d -c
 
 
 
